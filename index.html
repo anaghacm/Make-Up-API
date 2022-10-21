@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make-Up Info</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body onload="clearStorage()">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 headng">
+            <h3>INSTAURA</h3>
+            <p>Love the confidence that makeup gives you</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 imgdiv">
+            <main class="container">
+
+                <div class="item-4 item">
+                    <img class="img" src="./images/1.webp" alt="">
+                </div>
+                <div class="item-5 item">
+                    <img class="img" src="./images/2.webp" alt="">
+                </div>
+                <div class="item-6 item">
+                    <img class="img" src="./images/3.jpeg" alt="">
+                </div>
+                <div class="item-7 item">
+                    <img class="img" src="./images/4.webp" alt="">
+                </div>
+                <div class="item-8 item">
+                    <img class="img" src="./images/7.jpg" alt="">
+                </div>
+            </main>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 searchdiv">
+            <h5>Get your item</h5>
+            <form class="row g-3">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="text-align: left;">
+                    <label for="inputBrand" class="form-label">Brand</label>
+                    <select id="inputBrand" class="form-select">
+                        <option selected>-- Select --</option>
+                        <option>almay</option>
+                        <option>alva</option>
+                        <option>anna sui</option>
+                        <option>annabelle</option>
+                        <option>benefit</option>
+                        <option>boosh</option>
+                        <option>burt's bees</option>
+                        <option>butter london</option>
+                        <option>c'est moi</option>
+                        <option>cargo cosmetics</option>
+                        <option>china glaze</option>
+                        <option>clinique</option>
+                        <option>coastal classic creation</option>
+                        <option>colourpop</option>
+                        <option>covergirl</option>
+                        <option>dalish</option>
+                        <option>deciem</option>
+                        <option>dior</option>
+                        <option>dr. hauschka</option>
+                        <option>e.l.f.</option>
+                        <option>essie</option>
+                        <option>fenty</option>
+                        <option>glossier</option>
+                        <option>green people</option>
+                        <option>iman</option>
+                        <option>l'oreal</option>
+                        <option>lotus cosmetics usa</option>
+                        <option>maia's mineral galaxy</option>
+                        <option>marcelle</option>
+                        <option>marienatie</option>
+                        <option>maybelline</option>
+                        <option>milani</option>
+                        <option>mineral fusion</option>
+                        <option>misa</option>
+                        <option>mistura</option>
+                        <option>moov</option>
+                        <option>nudus</option>
+                        <option>nyx</option>
+                        <option>orly</option>
+                        <option>pacifica</option>
+                        <option>penny lane organics</option>
+                        <option>physicians formula</option>
+                        <option>piggy paint</option>
+                        <option>pure anada</option>
+                        <option>rejuva minerals</option>
+                        <option>revlon</option>
+                        <option>sally b's skin yummies</option>
+                        <option>salon perfect</option>
+                        <option>sante</option>
+                        <option>sinful colours</option>
+                        <option>smashbox</option>
+                        <option>stila</option>
+                        <option>suncoat</option>
+                        <option>w3llpeople</option>
+                        <option>wet n wild</option>
+                        <option>zorah</option>
+                        <option>zorah biocosmetiques</option>
+                    </select>
+                </div>
+                <!-- <div class="col-md-12"></div> -->
+                <div class="col-md-12 pt-4">
+                    <b>OR</b>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="text-align: left;">
+                    <label for="inputProduct" class="form-label">Product</label>
+                    <select id="inputProduct" class="form-select">
+                        <option selected>-- Select --</option>
+                        <option>blush</option>
+                        <option>bronzer</option>
+                        <option>eyebrow</option>
+                        <option>eyeliner</option>
+                        <option>eyeshadow</option>
+                        <option>foundation</option>
+                        <option>lip liner</option>
+                        <option>lipstick</option>
+                        <option>mascara</option>
+                        <option>nail polish</option>
+                    </select>
+                </div>
+<!-- 
+                <div class="row mt-5">
+                    <div class="col filtr">
+                        <div style="padding-top: 30px; padding-bottom: 30px; background-color: rgb(255, 240, 243);">
+                            <h6>Filter - By Tags</h6>
+                            <div>
+                                <span>
+                                    <input type="checkbox" id="tag1" name="tag" value="Canadian" onclick="">
+                                    <label for="tag1">Canadian</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag2" name="tag" value="CertClean">
+                                    <label for="tag2">CertClean</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag3" name="tag" value="Chemical Free">
+                                    <label for="tag3">Chemical Free</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag4" name="tag" value="Dairy Free">
+                                    <label for="tag4">Dairy Free</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag5" name="tag" value="EWG Verified">
+                                    <label for="tag5">EWG Verified</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag6" name="tag" value="EcoCert">
+                                    <label for="tag6">EcoCert</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag7" name="tag" value="Fair Trade">
+                                    <label for="tag7">Fair Trade</label>
+                                </span>
+
+
+
+                            </div>
+                            <div>
+                                <span>
+                                    <input type="checkbox" id="tag8" name="tag" value="Gluten Free">
+                                    <label for="tag8">Gluten Free</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag10" name="tag" value="Natural">
+                                    <label for="tag10">Natural</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag9" name="tag" value="Hypoallergenic">
+                                    <label for="tag9">Hypoallergenic</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag11" name="tag" value="No Talc">
+                                    <label for="tag11">No Talc</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag12" name="tag" value="Non-GMO">
+                                    <label for="tag12">Non-GMO</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag13" name="tag" value="Organic">
+                                    <label for="tag13">Organic</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag14" name="tag" value="Peanut Free Product">
+                                    <label for="tag14">Peanut Free Product</label>
+                                </span>
+
+                            </div>
+                            <div>
+                                <span>
+                                    <input type="checkbox" id="tag15" name="tag" value="Sugar Free">
+                                    <label for="tag15">Sugar Free</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag16" name="tag" value="USDA Organic">
+                                    <label for="tag16">USDA Organic</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag18" name="tag" value="alcohol free">
+                                    <label for="tag18">alcohol free</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag17" name="tag" value="Vegan">
+                                    <label for="tag17">Vegan</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag19" name="tag" value="cruelty free">
+                                    <label for="tag19">cruelty free</label>
+                                </span>
+
+                                <span>
+                                    <input type="checkbox" id="tag20" name="tag" value="oil free">
+                                    <label for="tag20">oil free</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag21" name="tag" value="purpicks">
+                                    <label for="tag21">purpicks</label>
+                                </span>
+
+                            </div>
+                            <div>
+                                <span>
+                                    <input type="checkbox" id="tag22" name="tag" value="silicone free">
+                                    <label for="tag22">silicone free</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="tag23" name="tag" value="water free">
+                                    <label for="tag23">water free</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-12">
+                    <div class="d-grid gap-2 col-4 mx-auto">
+                        <button class="btn" type="button" onclick="searchItem()">Search</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div  id="contnt" class="row row-cols-2 row-cols-md-4 g-4">
+
+        </div>
+        <div class="col-1"></div>
+    </div> -->
+
+    <div class="row footer">
+        <hr style="height: 3px; color: rgb(89, 13, 34);">
+        <p>anaghaprajeesh2011@gmail.com</p>
+    </div>
+</body>
+<script src="beauty.js"></script>
+
+</html>
